@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Aesthetics - Music Poster Design</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#artists">Artists</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="featured">
+      <h2>Featured Music Posters</h2>
+      <div class="poster-grid">
+        <div class="poster" data-artist="The Beatles" data-album="Abbey Road">
+          <img src="abbey-road.jpg" alt="Abbey Road poster">
+          <div class="overlay">
+            <div class="info">
+              <h3>Abbey Road</h3>
+              <p>by The Beatles</p>
+            </div>
+          </div>
+        </div>
+        <div class="poster" data-artist="Led Zeppelin" data-album="Physical Graffiti">
+          <img src="physical-graffiti.jpg" alt="Physical Graffiti poster">
+          <div class="overlay">
+            <div class="info">
+              <h3>Physical Graffiti</h3>
+              <p>by Led Zeppelin</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more posters here -->
+      </div>
+    </section>
+    <section id="artists">
+      <h2>Featured Artists</h2>
+      <div class="artist-grid">
+        <div class="artist" data-artist="Jimi Hendrix">
+          <img src="jimi-hendrix.jpg" alt="Jimi Hendrix">
+          <div class="overlay">
+            <div class="info">
+              <h3>Jimi Hendrix</h3>
+              <p>Click to view posters</p>
+            </div>
+          </div>
+        </div>
+        <div class="artist" data-artist="Pink Floyd">
+          <img src="pink-floyd.jpg" alt="Pink Floyd">
+          <div class="overlay">
+            <div class="info">
+              <h3>Pink Floyd</h3>
+              <p>Click to view posters</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more artists here -->
+      </div>
+    </section>
+    <section id="products">
+      <h2>Our Products</h2>
+      <div class="product-grid">
+        <div class="product">
+          <img src="poster.jpg" alt="Poster">
+          <div class="info
